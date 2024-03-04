@@ -1,43 +1,72 @@
 [
     {
         "id": "1",
-        "img": "https://i.ibb.co/mX2YhgD/Loki.jpg"
+        "img": "https://i.ibb.co/mX2YhgD/Loki.jpg",
+        "type": "Villan",
+        "price": "$20",
+        "rating": "4.3"
     },
     {
         "id": "2",
-        "img": "https://i.ibb.co/DL8Dz14/dr-strange.jpg"
-
+        "img": "https://i.ibb.co/DL8Dz14/dr-strange.jpg",
+        "type": "Hero",
+        "price": "$35",
+        "rating": "4.1"
     },
     {
         "id": "3",
-        "img": "https://i.ibb.co/SB1myf6/Thanos.png"
+        "img": "https://i.ibb.co/SB1myf6/Thanos.png",
+        "type": "Villan",
+        "price": "$25",
+        "rating": "4.7"
     },
     {
         "id": "4",
-        "img": "https://i.ibb.co/TTFH3X7/hulk2.png"
+        "img": "https://i.ibb.co/TTFH3X7/hulk2.png",
+        "type": "Hero",
+        "price": "$34",
+        "rating": "4.1"
     },
     {
         "id": "5",
-        "img": "https://i.ibb.co/znpnPpM/client.jpg"
+        "img": "https://i.ibb.co/znpnPpM/client.jpg",
+        "type": "Hero",
+        "price": "$30",
+        "rating": "3.7"
     },
     {
         "id": "6",
-        "img": "https://i.ibb.co/r7prM7K/black-widow.jpg"
+        "img": "https://i.ibb.co/r7prM7K/black-widow.jpg",
+        "type": "Female",
+        "price": "$15",
+        "rating": "2.2"
     },
     {
         "id": "7",
-        "img": "https://i.ibb.co/y4CSpz5/Scarlet-witch.png"
+        "img": "https://i.ibb.co/y4CSpz5/Scarlet-witch.png",
+        "type": "Female",
+        "price": "$17",
+        "rating": "3.7"
     },
     {
         "id": "8",
-        "img": "https://i.ibb.co/B3sxZcb/spider-man.png"
+        "img": "https://i.ibb.co/B3sxZcb/spider-man.png",
+        "type": "Hero",
+        "price": "$28",
+        "rating": "3.8"
     },
     {
         "id": "9",
-        "img": "https://i.ibb.co/pxgZ27y/bucky.jpg"
+        "img": "https://i.ibb.co/pxgZ27y/bucky.jpg",
+        "type": "Villan",
+        "price": "$22",
+        "rating": "1.7"
     },
     {
         "id": "10",
-        "img": "https://i.ibb.co/vXw8W6X/antman.jpg"
+        "img": "https://i.ibb.co/vXw8W6X/antman.jpg",
+        "type": "Hero",
+        "price": "$30",
+        "rating": "3.4"
     }
 ]

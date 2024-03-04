@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "type": "Platinum",
+      "description": "30 reward points on each purchase",
+      "price": "$40 (once in a life time)",
+      "img": "https://i.ibb.co/SXs59rb/platinum.jpg"
+    },
+    {
+      "id": "2",
+      "type": "Gold",
+      "description": "20 reward points on each purchase",
+      "price": "$30 (once in a lifetime)",
+      "img": "https://i.ibb.co/CtBn0Zj/Golden.jpg"
+    },
+    {
+      "id": "3",
+      "type": "Silver",
+      "description": "10 reward points on each purchase",
+      "price": "$20 (once in a lifetime)",
+      "img": "https://i.ibb.co/jzSSM99/silver.jpg"
+    },
+    {
+      "id": "4",
+      "type": "Bronze",
+      "description": "10 reward points on each purchase",
+      "price": "$10 (once in a lifetime)",
+      "img": "https://i.ibb.co/kMnYZDZ/bronze.jpg"
+    }
+
+]

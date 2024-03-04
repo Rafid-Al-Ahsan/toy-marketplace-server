@@ -1,83 +1,122 @@
 [
     {
         "id": "1",
+        "name": "Loki",
         "img": "https://i.ibb.co/mX2YhgD/Loki.jpg",
         "type": "Villan",
         "price": "$20",
         "rating": "4.3",
-        "description": "The mischievous Asgardian god of mischief, brother of Thor, known for his cunning schemes and shape-shifting abilities, often oscillating between villainy and anti-heroism."
+        "description": "The mischievous Asgardian god of mischief, brother of Thor, known for his cunning schemes and shape-shifting abilities, often oscillating between villainy and anti-heroism.",
+        "details": "As the adopted brother of Thor, Loki grew up in the shadow of his mighty sibling, craving recognition and power. Gifted with cunning intellect and magical abilities, Loki embarks on a path of mischief and manipulation, seeking to prove himself worthy of Asgard's throne. Despite his villainous tendencies, Loki's complex character blurs the line between good and evil, often oscillating between acts of heroism and betrayal, making him one of the most enigmatic and compelling figures in the Marvel universe.",
+        "actor": "Tom Hiddleston",
+        "actorimg": "https://i.ibb.co/fkfSWrc/Tom-Hiddleston.png" 
     },
     {
         "id": "2",
+        "name": "Dr Strange",
         "img": "https://i.ibb.co/DL8Dz14/dr-strange.jpg",
         "type": "Hero",
         "price": "$35",
         "rating": "4.1",
-        "description": "A brilliant but arrogant neurosurgeon turned Sorcerer Supreme who defends Earth against mystical threats, wielding powerful magic and ancient artifacts."
+        "description": "A brilliant but arrogant neurosurgeon turned Sorcerer Supreme who defends Earth against mystical threats, wielding powerful magic and ancient artifacts.",
+        "details": "Once a renowned neurosurgeon, Dr. Stephen Strange's life took a mystical turn after a devastating car accident left him unable to operate. Seeking a cure for his injured hands, he embarked on a journey that led him to the Ancient One, a powerful sorcerer who taught him the ways of the mystic arts. Now known as the Sorcerer Supreme, Dr. Strange protects the Earth from mystical threats using spells, artifacts, and his intellect, delving into other dimensions and facing unimaginable foes with his unwavering resolve and newfound sense of purpose.",
+        "actor": "Benedict Cumberbatch",
+        "actorimg": "https://i.ibb.co/GTqRM5n/Benedict-Cumberbatch.png"
     },
     {
         "id": "3",
+        "name": "Thanos",
         "img": "https://i.ibb.co/SB1myf6/Thanos.png",
         "type": "Villan",
         "price": "$25",
         "rating": "4.7",
-        "description": "The Mad Titan, obsessed with balancing the universe by wiping out half of all life, wielding the Infinity Gauntlet with its six powerful Infinity Stones, posing a threat to the entire cosmos."
-
+        "description": "The Mad Titan, obsessed with balancing the universe by wiping out half of all life, wielding the Infinity Gauntlet with its six powerful Infinity Stones, posing a threat to the entire cosmos.",
+        "details": "A formidable cosmic warlord obsessed with bringing balance to the universe, Thanos seeks to wipe out half of all life with the power of the Infinity Gauntlet and the six Infinity Stones. Driven by a twisted sense of mercy and a desire to save the universe from overpopulation, Thanos poses a threat of unimaginable proportions to the Avengers and all who stand in his way. With his imposing presence, ruthless determination, and godlike powers, Thanos proves to be the ultimate adversary, challenging the very fabric of existence itself.",
+        "actor": "Josh Brolin",
+        "actorimg": "https://i.ibb.co/fXjftXc/Josh-Brolin.jpg"
     },
     {
         "id": "4",
+        "name": "Hulk",
         "img": "https://i.ibb.co/TTFH3X7/hulk2.png",
         "type": "Hero",
         "price": "$34",
         "rating": "4.1",
-        "description": "Physicist Bruce Banner, exposed to gamma radiation, transforms into the Hulk, a massive, green-skinned behemoth with incredible strength, while battling inner turmoil and fighting for justice."
+        "description": "Physicist Bruce Banner, exposed to gamma radiation, transforms into the Hulk, a massive, green-skinned behemoth with incredible strength, while battling inner turmoil and fighting for justice.",
+        "details": "Dr. Bruce Banner, a brilliant scientist, was exposed to gamma radiation during a lab accident, triggering a transformation that turned him into the Hulk, a green-skinned behemoth with unparalleled strength. As the Hulk, Banner struggles to control his rage and the destructive power it unleashes. Despite his inner turmoil, he fights alongside the Avengers, using his immense strength to defend humanity from the most formidable threats, proving that even the most monstrous of heroes can have a heart of gold.",
+        "actor": "Mark Ruffalo",
+        "actorimg": "https://i.ibb.co/zSV9Lr8/Mark-Ruffalo.png"
     },
     {
         "id": "5",
+        "name": "Client Barton",
         "img": "https://i.ibb.co/znpnPpM/client.jpg",
         "type": "Hero",
         "price": "$30",
         "rating": "3.7",
-        "description": "A skilled marksman and master archer, Clint Barton, aka Hawkeye, fights alongside the Avengers, utilizing his exceptional accuracy and combat prowess to take down threats, all while maintaining a grounded perspective and dry wit."
+        "description": "A skilled marksman and master archer, Clint Barton, aka Hawkeye, fights alongside the Avengers, utilizing his exceptional accuracy and combat prowess to take down threats, all while maintaining a grounded perspective and dry wit.",
+        "details": " A former circus performer turned S.H.I.E.L.D. agent, Clint Barton honed his exceptional archery skills to become the sharpshooting hero known as Hawkeye. With nothing but a bow and arrow, Barton fights alongside the Avengers, showcasing his remarkable marksmanship and tactical prowess in battle. Despite lacking superpowers, his unwavering determination, loyalty, and keen sense of justice make him an indispensable member of the team, proving that true heroism comes from within.",
+        "actor": "Jeremy Renner",
+        "actorimg": "https://i.ibb.co/bPgfCF9/Jeremy-Renner.jpg"
     },
     {
         "id": "6",
+        "name": "Black Widow",
         "img": "https://i.ibb.co/r7prM7K/black-widow.jpg",
         "type": "Female",
         "price": "$15",
         "rating": "2.2",
-        "description": "Highly skilled former Russian spy and assassin turned Avenger, Natasha Romanoff, uses her exceptional combat skills and espionage expertise to fight for justice and redemption."
+        "description": "Highly skilled former Russian spy and assassin turned Avenger, Natasha Romanoff, uses her exceptional combat skills and espionage expertise to fight for justice and redemption.",
+        "details": "Trained as a deadly assassin in the Red Room, Natasha Romanoff defected from her former masters to become a fierce ally of the Avengers. With her exceptional combat skills, espionage expertise, and unwavering determination, Black Widow fights alongside Earth's mightiest heroes, confronting her troubled past and seeking redemption for her past sins. Despite her dark history, Romanoff's loyalty, resilience, and willingness to sacrifice make her an indispensable member of the team, proving that even the most dangerous of weapons can be wielded for good.",
+        "actor": "Scarlett Johansson",
+        "actorimg": "https://i.ibb.co/KyK9QWG/Scarlett-Johansson.jpg"
     },
     {
         "id": "7",
+        "name": "Scarlet Witch",
         "img": "https://i.ibb.co/y4CSpz5/Scarlet-witch.png",
         "type": "Female",
         "price": "$17",
         "rating": "3.7",
-        "description": "Possessing reality-warping powers from experimentation with the Mind Stone, Wanda Maximoff struggles with her traumatic past while battling alongside the Avengers and exploring her magical abilities."
+        "description": "Possessing reality-warping powers from experimentation with the Mind Stone, Wanda Maximoff struggles with her traumatic past while battling alongside the Avengers and exploring her magical abilities.",
+        "details": "Endowed with incredible reality-warping powers by experimentation with the Mind Stone, Wanda Maximoff, also known as the Scarlet Witch, grapples with her traumatic past and inner turmoil. As she struggles to control her formidable abilities, Maximoff allies herself with the Avengers, using her powers to protect the world from threats beyond imagination. With her strength, resilience, and determination, Scarlet Witch proves that even in the face of adversity, hope and redemption are within reach for those who dare to dream.",
+        "actor": "Elizabeth Olsen",
+        "actorimg": "https://i.ibb.co/7vQkS0d/Elizabeth-Olsen.jpg"
     },
     {
         "id": "8",
-        "img": "https://i.ibb.co/XJpn9qR/spidy.png",
+        "name": "Spider Man",
+        "img": "https://i.ibb.co/B3sxZcb/spider-man.png",
         "type": "Hero",
         "price": "$28",
         "rating": "3.8",
-        "description": "High school student Peter Parker gains spider-like abilities after a radioactive spider bite, becoming the web-slinging superhero Spider-Man, fighting crime while balancing his personal life and responsibilities."
+        "description": "High school student Peter Parker gains spider-like abilities after a radioactive spider bite, becoming the web-slinging superhero Spider-Man, fighting crime while balancing his personal life and responsibilities.",
+        "details": "After being bitten by a radioactive spider, high school student Peter Parker gains amazing spider-like abilities, including enhanced strength, agility, and the ability to cling to walls. Donning the iconic red and blue suit, he becomes the friendly neighborhood hero known as Spider-Man, swinging through the streets of New York City to fight crime and protect the innocent. Despite facing personal struggles and tragedy, Parker's unwavering sense of responsibility and quick wit make him a beloved hero, embodying the mantra that with great power comes great responsibility.",
+        "actor": "Tom Holland",
+        "actorimg": "https://i.ibb.co/GWBTSNK/Tom-Holland.jpg"
     },
     {
         "id": "9",
+        "name": "Winter Soilder",
         "img": "https://i.ibb.co/pxgZ27y/bucky.jpg",
         "type": "Villan",
         "price": "$22",
         "rating": "1.7",
-        "description": "Formerly Steve Rogers' best friend and sidekick, Bucky Barnes is brainwashed and turned into a deadly assassin by Hydra, grappling with his past while fighting alongside the Avengers."
+        "description": "Formerly Steve Rogers' best friend and sidekick, Bucky Barnes is brainwashed and turned into a deadly assassin by Hydra, grappling with his past while fighting alongside the Avengers.",
+        "details": "Once a loyal ally of Captain America, Bucky Barnes was brainwashed and transformed into the Winter Soldier, a deadly assassin for Hydra. Despite his dark past, Barnes struggles to reclaim his identity and find redemption, haunted by memories of his past life and the atrocities he committed. As he allies himself with the Avengers, Barnes grapples with his inner demons and seeks to atone for his sins, proving that even the most broken of souls can find redemption through courage and sacrifice.",
+        "actor": "Sebastian Stan",
+        "actorimg": "https://i.ibb.co/NKT6QL4/Sebastian-Stan.jpg"
     },
     {
         "id": "10",
+        "name": "Ant Man",
         "img": "https://i.ibb.co/vXw8W6X/antman.jpg",
         "type": "Hero",
         "price": "$30",
         "rating": "3.4",
-        "description": "Master thief Scott Lang inherits the Ant-Man suit, allowing him to shrink in size while increasing in strength, embarking on heists and heroics as a member of the Avengers."
+        "description": "Master thief Scott Lang inherits the Ant-Man suit, allowing him to shrink in size while increasing in strength, embarking on heists and heroics as a member of the Avengers.",
+        "details": "A former thief with a heart of gold, Scott Lang stumbled upon the incredible technology of the Ant-Man suit, granting him the power to shrink in size while increasing his strength. Embracing his newfound abilities, Lang becomes the size-shifting hero known as Ant-Man, using his skills to pull off daring heists and fight alongside the Avengers. With his humor, resourcefulness, and willingness to do what's right, Lang proves that even the most unlikely of heroes can make a big impact.",
+        "actor": "Paul Rudd",
+        "actorimg": "https://i.ibb.co/8gMqWwy/Paul-Rudd.jpg"
     }
 ]

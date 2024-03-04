@@ -61,13 +61,17 @@ async function run() {
     // Connect to toy-marketplace db and collection called 'toycollection'
     const userCollection = client.db('toy-marketplace').collection('toycollection');
 
+    app.post('/addtoy', async (req,res) => {
+        const result = await userCollection.insertOne(req.body);
+        res.send(result);
+    })
+
+
     app.get('/addtoy', async(req,res) => {
         const cursor = userCollection.find();
         const result = await cursor.toArray();
         res.send(result);
     });
-   
-
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });

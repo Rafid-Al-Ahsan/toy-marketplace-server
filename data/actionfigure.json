@@ -4,69 +4,80 @@
         "img": "https://i.ibb.co/mX2YhgD/Loki.jpg",
         "type": "Villan",
         "price": "$20",
-        "rating": "4.3"
+        "rating": "4.3",
+        "description": "The mischievous Asgardian god of mischief, brother of Thor, known for his cunning schemes and shape-shifting abilities, often oscillating between villainy and anti-heroism."
     },
     {
         "id": "2",
         "img": "https://i.ibb.co/DL8Dz14/dr-strange.jpg",
         "type": "Hero",
         "price": "$35",
-        "rating": "4.1"
+        "rating": "4.1",
+        "description": "A brilliant but arrogant neurosurgeon turned Sorcerer Supreme who defends Earth against mystical threats, wielding powerful magic and ancient artifacts."
     },
     {
         "id": "3",
         "img": "https://i.ibb.co/SB1myf6/Thanos.png",
         "type": "Villan",
         "price": "$25",
-        "rating": "4.7"
+        "rating": "4.7",
+        "description": "The Mad Titan, obsessed with balancing the universe by wiping out half of all life, wielding the Infinity Gauntlet with its six powerful Infinity Stones, posing a threat to the entire cosmos."
+
     },
     {
         "id": "4",
         "img": "https://i.ibb.co/TTFH3X7/hulk2.png",
         "type": "Hero",
         "price": "$34",
-        "rating": "4.1"
+        "rating": "4.1",
+        "description": "Physicist Bruce Banner, exposed to gamma radiation, transforms into the Hulk, a massive, green-skinned behemoth with incredible strength, while battling inner turmoil and fighting for justice."
     },
     {
         "id": "5",
         "img": "https://i.ibb.co/znpnPpM/client.jpg",
         "type": "Hero",
         "price": "$30",
-        "rating": "3.7"
+        "rating": "3.7",
+        "description": "A skilled marksman and master archer, Clint Barton, aka Hawkeye, fights alongside the Avengers, utilizing his exceptional accuracy and combat prowess to take down threats, all while maintaining a grounded perspective and dry wit."
     },
     {
         "id": "6",
         "img": "https://i.ibb.co/r7prM7K/black-widow.jpg",
         "type": "Female",
         "price": "$15",
-        "rating": "2.2"
+        "rating": "2.2",
+        "description": "Highly skilled former Russian spy and assassin turned Avenger, Natasha Romanoff, uses her exceptional combat skills and espionage expertise to fight for justice and redemption."
     },
     {
         "id": "7",
         "img": "https://i.ibb.co/y4CSpz5/Scarlet-witch.png",
         "type": "Female",
         "price": "$17",
-        "rating": "3.7"
+        "rating": "3.7",
+        "description": "Possessing reality-warping powers from experimentation with the Mind Stone, Wanda Maximoff struggles with her traumatic past while battling alongside the Avengers and exploring her magical abilities."
     },
     {
         "id": "8",
         "img": "https://i.ibb.co/B3sxZcb/spider-man.png",
         "type": "Hero",
         "price": "$28",
-        "rating": "3.8"
+        "rating": "3.8",
+        "description": "High school student Peter Parker gains spider-like abilities after a radioactive spider bite, becoming the web-slinging superhero Spider-Man, fighting crime while balancing his personal life and responsibilities."
     },
     {
         "id": "9",
         "img": "https://i.ibb.co/pxgZ27y/bucky.jpg",
         "type": "Villan",
         "price": "$22",
-        "rating": "1.7"
+        "rating": "1.7",
+        "description": "Formerly Steve Rogers' best friend and sidekick, Bucky Barnes is brainwashed and turned into a deadly assassin by Hydra, grappling with his past while fighting alongside the Avengers."
     },
     {
         "id": "10",
         "img": "https://i.ibb.co/vXw8W6X/antman.jpg",
         "type": "Hero",
         "price": "$30",
-        "rating": "3.4"
+        "rating": "3.4",
+        "description": "Master thief Scott Lang inherits the Ant-Man suit, allowing him to shrink in size while increasing in strength, embarking on heists and heroics as a member of the Avengers."
     }
 ]

@@ -4,6 +4,10 @@ const port = process.env.PORT || 5000;
 
 const toy = require('./data/actionfigure.json');
 
+// middleware
+const cors = require('cors')
+app.use(cors())
+
 app.get('/', (req, res) => {
   res.send('marveltoy store API is running')
 })

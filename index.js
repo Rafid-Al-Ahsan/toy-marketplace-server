@@ -4,6 +4,8 @@ const port = process.env.PORT || 5000;
 const cors = require('cors')
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
+require('dotenv').config();
+
 const toy = require('./data/actionfigure.json');
 const membership = require('./data/Membership.json');
 
@@ -39,6 +41,7 @@ app.get('/membership/:id', (req,res) => {
     res.send(seletedMembership);
 })
 
+
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.t79plj2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -58,7 +61,11 @@ async function run() {
     // Connect to toy-marketplace db and collection called 'toycollection'
     const userCollection = client.db('toy-marketplace').collection('toycollection');
 
-
+    app.get('/addtoy', async(req,res) => {
+        const cursor = userCollection.find();
+        const result = await cursor.toArray();
+        res.send(result);
+    });
    
 
 

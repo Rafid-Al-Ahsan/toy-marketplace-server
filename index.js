@@ -1,13 +1,15 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000;
+const cors = require('cors')
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const toy = require('./data/actionfigure.json');
-const membership = require('./data/Membership.json')
+const membership = require('./data/Membership.json');
 
 // middleware
-const cors = require('cors')
-app.use(cors())
+app.use(cors());
+app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('marveltoy store API is running')
@@ -36,3 +38,36 @@ app.get('/membership/:id', (req,res) => {
     const seletedMembership = membership.find(cardtype => cardtype.id === id);
     res.send(seletedMembership);
 })
+
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.t79plj2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+
+// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+const client = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
+});
+
+async function run() {
+  try {
+    // Connect the client to the server	(optional starting in v4.7)
+    await client.connect();
+
+    // Connect to toy-marketplace db and collection called 'toycollection'
+    const userCollection = client.db('toy-marketplace').collection('toycollection');
+
+
+   
+
+
+    // Send a ping to confirm a successful connection
+    await client.db("admin").command({ ping: 1 });
+    console.log("Pinged your deployment. You successfully connected to MongoDB!");
+  } finally {
+    // Ensures that the client will close when you finish/error
+    // await client.close();
+  }
+}
+run().catch(console.dir);

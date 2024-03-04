@@ -96,6 +96,7 @@ async function run() {
             const updatedUser = {
                 $set: {
                     photo: toy.photo,
+                    toyname: toy.toyname2,
                     sellername: toy.sellername,
                     selleremail: toy.selleremail,
                     subcategory: toy.subcategory,

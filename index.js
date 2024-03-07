@@ -117,26 +117,27 @@ async function run() {
     })
 
     app.put('/addtoy/:id', async(req,res) => {
-       const id = req.params.id;
-       const toy = req.body;
-       console.log(toy); 
-       const filter = {_id: new ObjectId(id)};
-       const options = {upsert: true};
-       const updatedUser = {
-         $set: {
-             photo: toy.photo,
-             sellername: toy.sellername,
-             selleremail: toy.selleremail,
-             subcategory: toy.subcategory,
-             price: toy.price,
-             quantity: toy.quantity,
-             rating: toy.rating,
-             description: toy.description
-         }
-       }
-       const result = await userCollection.updateOne(filter, updatedUser, options);
-       res.send(result);
-    })
+      const id = req.params.id;
+      const toy = req.body;
+      console.log(toy); 
+      const filter = {_id: new ObjectId(id)};
+      const options = {upsert: true};
+      const updatedUser = {
+        $set: {
+            photo: toy.photo,
+            toyname: toy.toyname2,
+            sellername: toy.sellername,
+            selleremail: toy.selleremail,
+            subcategory: toy.subcategory,
+            price: toy.price,
+            quantity: toy.quantity,
+            rating: toy.rating,
+            description: toy.description
+        }
+      }
+      const result = await userCollection.updateOne(filter, updatedUser, options);
+      res.send(result);
+   })
 
     app.delete('/addtoy/:id', async(req,res) => {
        const id = req.params.id;
